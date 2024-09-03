@@ -1,0 +1,42 @@
+// Define your brand colors
+$purple: #8a4d76;
+$pink: #fe76c2;
+$blue: #37c7f2;
+$light-red: #fff3f3;
+$brown: #757763; // Define the color value for $brown
+$beige-light: #d0d1cd; // Define the color value for $beige-light
+
+// Path to Bulma's sass folder
+@use "bulma/sass";
+
+// Optionally, import Google Font in your HTML or CSS file
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+// Set your custom variables after Bulma
+$family-sans-serif: '"Nunito", sans-serif';
+$grey-dark: $brown;
+$grey-light: $beige-light; // Ensure $beige-light is defined elsewhere
+$primary: $purple;
+$link: $blue;
+
+// Define custom variables
+$body-background-color: $light-red;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-background-color: #f3f5fa;
+$input-shadow: none;
+
+// Global styles
+html, body {
+    height: 100%;
+    font-size: 18px !important;
+    overflow: hidden !important;
+}
+
+// Apply -webkit-overflow-scrolling: touch; only for Safari on iOS devices
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    pre {
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+  

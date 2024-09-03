@@ -1,0 +1,31 @@
+@import'../../../../main-styles.scss';
+
+$yellow: #fff1768a; // Define the color value for $purple
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.notes-list {
+    margin-top: 35px;
+    margin-bottom: 70px;
+}
+
+app-note-card {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.floating-add-button {
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+    border-radius: 4px;
+ 
+    height: 40px;
+    font-size: 24px;
+}
