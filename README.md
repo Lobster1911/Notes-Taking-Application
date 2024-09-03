@@ -1,1 +1,1 @@
-# Notes-Taking-Application-Ulster-University-
+# Notes-Taking-Application
